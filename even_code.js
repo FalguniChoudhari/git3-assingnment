@@ -1,9 +1,9 @@
-let x=10;
-if(x%2==0)
-{
-console.log("Even");
+function even_odd(num) {
+	if (num % 2 == 0) {
+		console.log("Even");
+	} else {
+		console.log("Odd");
+	}
 }
-else
-{
-console.log("Odd");
-}
+
+even_odd(20);
