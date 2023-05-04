@@ -1,9 +1,11 @@
-function even_odd(num) {
-	if (num % 2 == 0) {
-		console.log("Even");
-	} else {
-		console.log("Odd");
-	}
+let a=10;
+
+if(a%2!=0)
+{
+	console.log("Odd");
+}
+else
+{
+	console.log("Even");
 }
 
-even_odd(20);
